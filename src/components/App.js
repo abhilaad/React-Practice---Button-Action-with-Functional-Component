@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import "./../styles/App.css";
 
-function App() {
+export default function App() {
   const [show, setShow] = useState(true);
 
   return (
